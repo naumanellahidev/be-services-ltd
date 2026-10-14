@@ -9,7 +9,7 @@ export const business = {
   tel: 'tel:+447932055272',
   mailto: 'mailto:info@beserviceslimited.co.uk',
   maps: 'https://www.google.com/maps/search/?api=1&query=5+Wadsworth+Road%2C+Perivale%2C+Greenford%2C+UB6+7JD%2C+United+Kingdom',
-  developerUrl: 'https://naumanellahi.vercel.app',
+  developerUrl: 'https://naumanellahi.com',
 }
 
 export const img = (id: string, w = 1200) =>

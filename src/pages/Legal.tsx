@@ -1,5 +1,4 @@
 import { Link } from '@tanstack/react-router'
-import { Info } from 'lucide-react'
 import { getLegalPage, legalPages } from '../data/legal'
 import { usePageMeta } from '../components/usePageMeta'
 import { NotFound } from './NotFound'
@@ -27,12 +26,6 @@ export function Legal({ slug }: { slug: string }) {
           <h1>{page.title}</h1>
           <p className="lead">{page.summary}</p>
           <p className="muted small">Last updated: October 2026</p>
-          <div className="owner-note" role="note">
-            <Info size={18} aria-hidden="true" />
-            <p>
-              <strong>Note for the business owner:</strong> this wording is a general template for a UK business website. It should be checked against BE SERVICES LTD’s actual practices before publication, particularly any item marked “Owner to confirm”. It is not a substitute for legal advice.
-            </p>
-          </div>
           {page.sections.map((s) => (
             <section key={s.heading}>
               <h2>{s.heading}</h2>

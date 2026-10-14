@@ -256,12 +256,6 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--s
 .legal-body h2 { font-size: 1.3rem; margin-top: 2em; }
 .legal-body p, .legal-body li { color: var(--muted); }
 .legal-body ul { list-style: disc; padding-left: 1.3em; display: grid; gap: 6px; margin-bottom: 1em; }
-.owner-note {
-  display: grid; grid-template-columns: 20px 1fr; gap: 12px; background: #f7efdf; border: 1px solid #ead9b9;
-  border-radius: var(--radius-sm); padding: 16px 18px; margin: 20px 0 8px;
-}
-.owner-note p { margin: 0; font-size: 0.92rem; color: #5a4a2f; }
-.owner-note svg { color: #8a6d3b; margin-top: 3px; }
 
 /* Footer */
 .site-footer { background: var(--cream); border-top: 1px solid var(--line); padding-top: 64px; margin-top: 24px; }

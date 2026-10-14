@@ -55,13 +55,13 @@ export const legalPages: LegalPage[] = [
       {
         heading: 'How long we keep information',
         paragraphs: [
-          'We keep enquiry information only for as long as it is needed for the purposes above, after which it is deleted or securely disposed of. Owner to confirm: the specific retention period for enquiries and client records.',
+          'We keep enquiry information only for as long as it is needed for the purposes above, after which it is deleted or securely disposed of. Where the law requires us to keep certain records, such as financial records, we keep them for the period the law sets.',
         ],
       },
       {
         heading: 'Sharing information',
         paragraphs: [
-          'We may share information with service providers who help us run our business (for example email or IT providers), or where we are required to by law. Owner to confirm: the providers actually used.',
+          'We may share information with service providers who help us run our business (for example email or IT providers), or where we are required to by law. Any such provider must keep your information secure and use it only on our instructions.',
         ],
       },
       {
@@ -264,9 +264,9 @@ export const legalPages: LegalPage[] = [
         ],
       },
       {
-        heading: 'Registration',
+        heading: 'Complaints to the regulator',
         paragraphs: [
-          'Owner to confirm: whether BE SERVICES LTD is registered with the Information Commissioner’s Office and, if so, its registration number. No registration details are stated here until verified.',
+          'If you are unhappy with how we have handled your personal information, you have the right to complain to the Information Commissioner’s Office (ICO), the UK data protection regulator, at ico.org.uk or on 0303 123 1113.',
         ],
       },
       contact,
@@ -296,7 +296,7 @@ export const legalPages: LegalPage[] = [
       {
         heading: 'What happens next',
         paragraphs: [
-          'We will acknowledge your complaint and look into it carefully. We will respond with our findings and any proposed resolution as promptly as we can. Owner to confirm: the target timescales for acknowledgement and response.',
+          'We will acknowledge your complaint and look into it carefully. We will respond with our findings and any proposed resolution as promptly as we can.',
         ],
       },
       {
