@@ -372,7 +372,7 @@ export const legalPages: LegalPage[] = [
       {
         heading: 'Links to other websites',
         paragraphs: [
-          'This website includes links to third-party websites and services, such as Google Maps for directions and the website of the site developer. These links are provided for convenience only.',
+          'This website includes links to third-party websites and services, such as Google Maps for directions. These links are provided for convenience only.',
         ],
       },
       {

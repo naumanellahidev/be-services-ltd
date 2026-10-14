@@ -45,9 +45,6 @@ export function Footer() {
       </div>
       <div className="container footer-bottom">
         <p>© 2026 BE SERVICES LTD. All rights reserved.</p>
-        <a className="dev-pill" href={business.developerUrl} target="_blank" rel="noopener noreferrer">
-          Designed &amp; Developed by <strong>Nauman Ellahi</strong>
-        </a>
       </div>
     </footer>
   )

@@ -8,9 +8,7 @@ export const business = {
   phoneDisplay: '+44 7932 055272',
   tel: 'tel:+447932055272',
   mailto: 'mailto:info@beserviceslimited.co.uk',
-  maps: 'https://www.google.com/maps/search/?api=1&query=5+Wadsworth+Road%2C+Perivale%2C+Greenford%2C+UB6+7JD%2C+United+Kingdom',
-  developerUrl: 'https://naumanellahi.com',
-}
+  maps: 'https://www.google.com/maps/search/?api=1&query=5+Wadsworth+Road%2C+Perivale%2C+Greenford%2C+UB6+7JD%2C+United+Kingdom',}
 
 export const img = (id: string, w = 1200) =>
   `https://images.unsplash.com/photo-${id}?w=${w}&q=80&auto=format&fit=crop`
